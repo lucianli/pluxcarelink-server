@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const fs = require('fs');
 const csv = require('csv-parser');
 const dotenv = require('dotenv');
-const Resource = require('./models/resource');
+const Resource = require('./models/Resource.js');
 const geocodeAddress = require('./utils/geocode.js');
 
 dotenv.config();

@@ -1,5 +1,5 @@
 const express = require('express');
-const Resource = require('../models/resource');
+const Resource = require('../models/Resource.js');
 const router = express.Router();
 const geocodeAddress = require('../utils/geocode.js');
 
